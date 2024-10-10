@@ -84,7 +84,7 @@ main{
    padding:1rem 2rem;
     background:rgb(59, 54, 54,0.8);
      color:rgb(219, 208, 208);
-     font-size:24px;
+     font-size:20px;
      font-weight:700;
      border-radius:5px;
      border:none;
@@ -229,7 +229,7 @@ header #navbar{
 }
 nav ul{
   display:flex;
-  gap:2rem;
+  gap:1rem;
   list-style-type:none;
  
 }
