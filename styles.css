@@ -4,13 +4,6 @@ body{
 *{
   box-sizing:border-box;
 }
-.outer-container{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr ;
-  grid-template-rows:auto 4fr 1fr;
-  
-  grid-template-areas:"header header header" "main main main" "footer footer footer";
-}
 #bgh{
   position:absolute;
   bottom:-4rem;
@@ -19,10 +12,10 @@ body{
 
   color:rgb(0,0,0,0.1);
 }
-/* header{
+ header{
   grid-area:header;
     background-color:rgb(59, 54, 54);
-} */
+}
 main{
   grid-area:main;
     background-color:rgb(122, 73, 73);
@@ -79,16 +72,19 @@ main{
 }
 #works{
   background:rgb(112, 96, 96);
-  text-align:center;
+  text-align:center; 
+  
 }
 #works hr{
   width:80%;
+  margin-bottom:3rem;
 }
 #works button{
-   margin-block:1rem;
+   margin-block:2rem;
    padding:1rem 2rem;
     background:rgb(59, 54, 54,0.8);
      color:rgb(219, 208, 208);
+     font-size:24px;
      font-weight:700;
      border-radius:5px;
      border:none;
@@ -105,7 +101,7 @@ main{
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows:auto;
   padding: 2rem;
-  gap:1rem;
+  gap:2rem;
   
 }
 #works h1{
@@ -154,13 +150,15 @@ footer{
  justify-content:space-between;
   flex-direction:column;
   gap:2rem;
+  min-height:30rem;
 }
 footer #firstdiv{
   display:flex;
   align-items:center;
   padding:1rem;
-  gap:2rem;
+  gap:4rem;
   flex-direction:column;
+ 
 }
 footer #socialmedia{
   display:grid;
@@ -196,6 +194,7 @@ footer #lastdiv{
   align-items:center;
   justify-content:space-between;
   padding:1rem;
+  
   
 }
 footer a{
@@ -236,4 +235,4 @@ footer #socialmedia{
  
 }
 
-}
+} 
